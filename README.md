@@ -1,4 +1,4 @@
-markdown# 🌍 Food Flow Impact Tool
+🌍 Food Flow Impact Tool
 
 An interactive web application for analyzing the impact of removing specific subnational administrative regions on global and target food flows.
 
