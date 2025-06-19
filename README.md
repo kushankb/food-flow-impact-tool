@@ -1,6 +1,6 @@
 🌍 Food Flow Impact Tool
 
-An interactive web application for analyzing the impact of removing specific subnational administrative regions on global and target food flows. The app. uses data developed by the Better [Planet Laboratory](https://betterplanetlab.com/) and [Earth Genome](https://www.earthgenome.org/) as part of the Global Food Twin project. 
+An interactive web application for analyzing the impact of removing specific subnational administrative regions on global and target food flows. The app. uses data developed by the [Better Planet Laboratory](https://betterplanetlab.com/) and [Earth Genome](https://www.earthgenome.org/) as part of the Global Food Twin project. 
 
 ## Features
 - Interactive region selection with country-based filtering
