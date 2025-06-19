@@ -932,7 +932,27 @@ def main():
 
         **Your real data will be loaded automatically.**
         """)
-
+ # Add this as the very last thing in main():
+    st.markdown("---")
+    st.markdown("""
+    <div style="
+        background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
+        padding: 2rem;
+        border-radius: 15px;
+        margin-top: 3rem;
+        text-align: center;
+        border-top: 3px solid #3b82f6;
+        box-shadow: 0 -4px 12px rgba(0,0,0,0.1);
+    ">
+        <h4 style="color: #1f2937; margin-bottom: 1rem;">📊 Data Attribution</h4>
+        <p style="color: #4b5563; font-size: 1rem; line-height: 1.6; margin: 0;">
+            This application uses data developed by the 
+            <strong style="color: #3b82f6;">Better Planet Laboratory</strong> and 
+            <strong style="color: #10b981;">Earth Genome</strong> 
+            as part of the <strong style="color: #8b5cf6;">Global Food Twin</strong> project.
+        </p>
+    </div>
+    """, unsafe_allow_html=True)
 
 if __name__ == "__main__":
     main()
